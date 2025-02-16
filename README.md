@@ -6,4 +6,4 @@ A simple timing game demo created in Unity for Android.
 - Raga2D: https://opengameart.org/users/raga2d
 - dogchicken: https://opengameart.org/users/dogchicken
 - Calciumtrice: https://opengameart.org/users/calciumtrice, https://twitter.com/calciumtrice, http://calciumtrice.tumblr.com/
-// - Pixivan: https://opengameart.org/users/pixivan //
+- I plan to add art from Pixivan: https://opengameart.org/users/pixivan
