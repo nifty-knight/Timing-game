@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PlayerBlock
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: 0cdee296707822c468e468c6a990210b, type: 3}
+    - time: 0.033333335
+      value: {fileID: 21300000, guid: 13603f03a0b2e0a4aa14be3f8ba0ddd4, type: 3}
+    - time: 0.06666667
+      value: {fileID: 21300000, guid: 47db8f8f7d610494c92b9092a246cee2, type: 3}
+    - time: 0.1
+      value: {fileID: 21300000, guid: 0d6fe4ddea6738340bf0f808c32f7c28, type: 3}
+    - time: 0.11666667
+      value: {fileID: 21300000, guid: 2075936f74324c546bc0f6d36c67d250, type: 3}
+    - time: 0.15
+      value: {fileID: 21300000, guid: b25a12c0c752fb043bc02c5ce6e359f0, type: 3}
+    - time: 0.18333334
+      value: {fileID: 21300000, guid: 08295c107e7abf24fa887c8c73607f94, type: 3}
+    - time: 0.21666667
+      value: {fileID: 21300000, guid: 6177e91a375b2e645ae38b601d7728ad, type: 3}
+    - time: 0.25
+      value: {fileID: 21300000, guid: a6149380e0ddee5479ae31dcf0ad0d95, type: 3}
+    - time: 0.26666668
+      value: {fileID: 21300000, guid: 99824f33b258ba64b985c84e28c5eca1, type: 3}
+    - time: 0.3
+      value: {fileID: 21300000, guid: c77ca82f57be0ff44a3b2b0ff6d64889, type: 3}
+    - time: 0.43333334
+      value: {fileID: 21300000, guid: c77ca82f57be0ff44a3b2b0ff6d64889, type: 3}
+    attribute: m_Sprite
+    path: 
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 0
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    pptrCurveMapping:
+    - {fileID: 21300000, guid: 0cdee296707822c468e468c6a990210b, type: 3}
+    - {fileID: 21300000, guid: 13603f03a0b2e0a4aa14be3f8ba0ddd4, type: 3}
+    - {fileID: 21300000, guid: 47db8f8f7d610494c92b9092a246cee2, type: 3}
+    - {fileID: 21300000, guid: 0d6fe4ddea6738340bf0f808c32f7c28, type: 3}
+    - {fileID: 21300000, guid: 2075936f74324c546bc0f6d36c67d250, type: 3}
+    - {fileID: 21300000, guid: b25a12c0c752fb043bc02c5ce6e359f0, type: 3}
+    - {fileID: 21300000, guid: 08295c107e7abf24fa887c8c73607f94, type: 3}
+    - {fileID: 21300000, guid: 6177e91a375b2e645ae38b601d7728ad, type: 3}
+    - {fileID: 21300000, guid: a6149380e0ddee5479ae31dcf0ad0d95, type: 3}
+    - {fileID: 21300000, guid: 99824f33b258ba64b985c84e28c5eca1, type: 3}
+    - {fileID: 21300000, guid: c77ca82f57be0ff44a3b2b0ff6d64889, type: 3}
+    - {fileID: 21300000, guid: c77ca82f57be0ff44a3b2b0ff6d64889, type: 3}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.45000002
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_Events:
+  - time: 0
+    functionName: DisablePlayerInput
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.3
+    functionName: ResetBlockTimer
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.43333334
+    functionName: EnablePlayerInput
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.43333334
+    functionName: ReturnToIdleAnim
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
